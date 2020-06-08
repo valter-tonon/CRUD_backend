@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Valter Tonon",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.14.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "knex": "^0.21.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0"
+  }
+}
